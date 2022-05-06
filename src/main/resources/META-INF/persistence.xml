@@ -6,8 +6,8 @@
 	
 	<persistence-unit name="trabajoparcialPU" transaction-type="JTA">
 		<jta-data-source>java:/TrabajoParcialDS</jta-data-source>
-		<class>pe.edu.upc.trabajoparcial.model.entity.Career</class>
-		<class>pe.edu.upc.trabajoparcial.model.entity.Student</class>
+		<class>pe.edu.upc.trabajoparcial.model.entity.Tag</class>
+		<class>pe.edu.upc.trabajoparcial.model.entity.Client</class>
 		
 		<exclude-unlisted-classes>false</exclude-unlisted-classes>
 		<properties>
